@@ -4,13 +4,12 @@
     @include('layouts.head')
 </head>
 <body>
-@include('layouts.header')
 
 <div id="app">
+    @include('layouts.header')
     @yield('contents')
+    @include('layouts.footer')
 </div>
-
-@include('layouts.footer')
 
 <script src="/js/app.js"></script>
 </body>
