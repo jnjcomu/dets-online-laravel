@@ -1,5 +1,15 @@
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('//cdn.jsdelivr.net/nanumsquare/1.0/nanumsquare.css');
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
+* {
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+
 #app {
-  padding-top: 56px !important;
+  padding-top: 72px !important;
+}
+
+h1 {
+  font-weight: bold;
 }

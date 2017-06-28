@@ -1,12 +1,12 @@
 <!doctype html>
 <html>
 <head>
+    <title>DET'S - @yield('title')</title>
     @include('layouts.head')
 </head>
 <body>
 
 <div id="app">
-    @include('layouts.header')
     @yield('contents')
     @include('layouts.footer')
 </div>

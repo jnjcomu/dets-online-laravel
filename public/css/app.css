@@ -1,4 +1,4 @@
-/*!
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);@import url(//cdn.jsdelivr.net/nanumsquare/1.0/nanumsquare.css);/*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
@@ -10200,7 +10200,15 @@ a.text-gray-dark:hover {
   }
 }
 
+* {
+  font-family: 'Noto Sans KR', sans-serif !important;
+}
+
 #app {
-  padding-top: 56px !important;
+  padding-top: 72px !important;
+}
+
+h1 {
+  font-weight: bold;
 }
 

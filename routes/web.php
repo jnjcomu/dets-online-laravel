@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('/lectures', 'LectureController@lectures');
+Route::get('/lectures/me', 'LectureController@appliesLecture');
