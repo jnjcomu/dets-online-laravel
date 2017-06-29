@@ -1,7 +1,6 @@
 <!doctype html>
-<html>
+<html lang="{{ app()->getLocale() }}">
 <head>
-    <title>DET'S - @yield('title')</title>
     @include('layouts.head')
 </head>
 <body>
@@ -11,6 +10,6 @@
     @include('layouts.footer')
 </div>
 
-<script src="/js/app.js"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

@@ -1,5 +1,4 @@
-@extends('layouts.skeleton')
-@section('title', 'LIST')
+@extends('layouts.app')
 
 @section('contents')
     <navbar current-page="lecture-list"></navbar>

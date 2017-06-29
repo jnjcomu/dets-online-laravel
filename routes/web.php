@@ -16,4 +16,12 @@ Route::get('/', function () {
 });
 
 Route::get('/lectures', 'LectureController@lectures');
-Route::get('/lectures/me', 'LectureController@appliesLecture');
+Route::get('/me/lectures', 'LectureController@appliesLecture');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
